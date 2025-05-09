@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": { "type": "integer" },
+      "tipo": { "type": "string" },
+      "valor": { "type": "number" },
+      "localizacao": { "type": "string" },
+      "horario": { "type": "string", "format": "date-time" }
+    },
+    "required": ["id", "tipo", "valor", "localizacao", "horario"]
+  }
+}
